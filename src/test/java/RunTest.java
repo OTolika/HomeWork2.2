@@ -29,6 +29,13 @@ public class RunTest
         Assert.assertEquals("A", "B");
     }
 
+    @Test
+    public void Test3()
+    {
+        System.out.println("3");
+        Assert.fail("This is an error");
+    }
+
     public static void main()
     {
         open("https://demoqa.com/automation-practice-form");
